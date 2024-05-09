@@ -1,0 +1,696 @@
+#navbar{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+   justify-content: space-around;
+   list-style-type: none;
+
+}
+
+#nav nav{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+#nav ul{
+    gap: 10%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-right: 60px;
+    font-size: 20px;
+
+}
+#nav button{
+    width: 60px;
+    height: 40px;
+    margin-right: -100px;
+    margin-top: 20px;
+    /* margin-right: -800px; */
+}
+#nav li{
+    margin-right: 10px;
+    
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-items: space-around;
+    align-items: center;
+    margin-left: -300px;
+}
+#join-button button{
+    position: absolute;
+    margin-right: -380px;
+    width: 100px;
+    border-radius: 12px;
+    height: 40px;
+    background-color: #DF314E;
+    color: white;
+}
+#login-button button{
+    margin-right: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 12px;
+    border: #DF314E 3px solid;
+}
+#color{
+    color: #DF314E;
+}
+#graduationhat img{
+    width: 40px;
+}
+#buttons{
+    display: flex;
+    flex-direction: row;
+   
+}
+#check{
+    display: flex;
+    margin-top: 80px;
+    
+}
+body{
+    padding-left: 150px;
+    padding-right: 60px;
+    overflow-x: hidden;
+}
+#skills input{
+    width: 400px;
+    position: relative;
+    height: 50px;
+    border-radius: 12px;
+  margin-left: -40px;
+}
+#home{
+    color: #DF314E;
+}
+#buttons{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+#explore-button button{
+    position: absolute;
+    margin-left: -92px;
+    height: 55px;
+    border-radius: 12px;
+    background-color: #DF314E;
+    color: white;
+}
+#landing-page{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    margin-top: 50px;
+}
+#landingpage-image img{
+    position: absolute;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 50px;
+   
+}
+#small-images img{
+    margin-top: -20px;
+}
+#landingpage-heading{
+    padding-left: 2px;
+    font-size: 28px;
+}
+#landingpage-heading {
+    font-size: 28px;
+    margin-left: 30px;
+}
+#ux img{
+    margin-top: -640px;
+    margin-left: 1100px;
+    position: absolute;
+width: 80px;
+}
+#adepearence img{
+    margin-left: 950px;
+    margin-top: -400px;
+    position: absolute;
+    width: 50px;  
+}
+#biotech img{
+    margin-left: 1030px;
+    margin-top: -280px;
+    position: absolute;
+    width: 100px;
+}
+#pedro img{
+    margin-left: 1380px;
+    margin-top: -480px;
+    position: absolute;
+    width: 60px;
+}
+#plesk img{
+    margin-left: 1320px;
+    margin-top: -280px;
+    position: absolute;
+    width: 80px;
+}
+#footer{
+    display: flex;
+    flex-direction: row; 
+    /* justify-items: space-around; */
+    align-items: center; 
+    /* margin-top: 0px;  */
+    margin-left: 20px;
+    
+    gap: -1%;
+    /* margin-right: 200px; */
+}
+#microsoft-icon img{
+  width: 160px; 
+ margin-left: 45px;
+}
+/* #paragraph p{
+    margin-left: 40px;
+    font-size: 20px;
+} */
+#google-icon img{
+    width: 160px;
+    margin-left: 80px;
+}
+#medium-icon img{
+    width: 160px;
+    margin-left: 150px;
+}
+#udemy-icon img{
+    width: 160px;
+    margin-left: 210px;
+}
+#slack-icon img{
+    width: 160px;
+    margin-left: 180px;
+}
+#paragraph-sentence{
+    margin-left: 40px;
+    font-size: 20px;
+    color:black;
+}
+@media screen and (min-width:280px) and (max-width:540px){
+    #navbar{
+        display: grid;
+        /* flex-direction: row;
+        /* align-items: center; */
+       /* justify-content: space-around; */ 
+    
+    }
+    #landingpage-heading {
+        font-size: 18px;
+        margin-left: 30px;
+    }
+    #logo{
+        display: flex;
+        
+        justify-items: space-around;
+        align-items: center;
+        margin-left: -50px;
+    }
+
+    #nav nav{
+        display: grid;
+        /* flex-d.reverse()irection: row; */
+    }
+    #nav ul{
+        gap: 10%;
+        display: grid;
+        /* flex-direction: row; */
+        list-style-type: none;
+        font-size: 18px;
+        
+    }
+    #nav button{
+        width: 60px;
+        height: 40px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    #contact{
+        margin-left: 5px;
+    }
+    #about{
+        margin-left: 5px;
+    }
+    #program{
+        margin-left: 5px;
+    }
+    #home {
+        margin-left: 2px;
+        color: #DF314E;
+    }
+    #color{
+        color: #DF314E;
+    }
+    #graduationhat img{
+        width: 40px;
+    }
+
+    #login-button button{
+        margin-left: 5px;
+        width: 60px;
+        height: 30px;
+        border-radius: 12px;
+        border: #DF314E 3px solid;
+    }
+
+    #join-button button{
+        margin-left: 5px;
+        width: 60px;
+        border-radius: 12px;
+        height: 35px;
+        background-color: #DF314E;
+        color: white;
+    }
+
+    body{
+        padding-left: 1px;
+        padding-right: 1px;
+        overflow-x: hidden;
+    }
+    #landing-page{
+        display: grid;
+        /* flex-direction: row; */
+        /* justify-content: space-around; */
+        margin-top:20px;
+    }
+    #landingpage-image img{
+        position: absolute;
+        width: 260px;
+        margin-left: 10px;
+       }
+      #footer{
+        display: grid;
+        /* flex-direction: row; 
+        justify-items: space-around;
+        align-items: center;  */
+        margin-top: 320px; 
+    }
+    #microsoft-icon img{
+        width: 120px; 
+       
+      }
+      #google-icon img{
+          width: 120px;
+          margin-left: 5px;
+      }
+      #medium-icon img{
+          width: 120px;
+          margin-left: 5px;
+      }
+      #udemy-icon img{
+          width: 120px;
+          margin-left: 5px;
+      }
+      #slack-icon img{
+          width: 120px;
+          margin-left: 5px;
+          
+}
+
+#ux img{
+    margin-top: -10px;
+    margin-left: 100px;
+    position: absolute;
+width: 80px;
+}
+#adepearence img{
+    margin-left: 40px;
+    margin-top: 90px;
+    position: absolute;
+    width: 50px;  
+}
+#biotech img{
+    margin-left: 15px;
+    margin-top: 180px;
+    position: absolute;
+    width: 100px;
+}
+#pedro img{
+    margin-left: 150px;
+    margin-top: 230px;
+    position: absolute;
+    width: 60px;
+}
+#plesk img{
+    margin-left: 200px;
+    margin-top: 90px;
+    position: absolute;
+    width: 80px;
+}
+#skills input{
+    margin-left: -34px;
+    width: 280px;
+    position: relative;
+    height: 50px;
+    border-radius: 12px;
+}
+#check{
+    display: grid;
+}
+}
+
+@media screen and (min-width:1020px) and (max-width:1280px){
+    #navbar{
+        display: flex;
+        /* flex-direction: row;
+        /* align-items: center; */
+       /* justify-content: space-around; */ 
+    
+    }
+    #landingpage-heading {
+        font-size: 32px;
+        margin-left: 30px;
+    }
+    #logo{
+        display: flex;
+        
+        justify-items: space-around;
+        align-items: center;
+        margin-left: -50px;
+    }
+
+    #nav nav{
+        display: flex;
+        /* flex-d.reverse()irection: row; */
+    }
+    #nav ul{
+        gap: 3%;
+        display: flex;
+        /* flex-direction: row; */
+        list-style-type: none;
+        font-size: 18px;
+        
+    }
+    #nav button{
+        width: 60px;
+        height: 40px;
+        margin-left: -10px;
+        margin-top: 20px;
+    }
+
+    #contact{
+        margin-left: 5px;
+    }
+    #about{
+        margin-left: 5px;
+    }
+    #program{
+        margin-left: 5px;
+    }
+    #home {
+        margin-left: 2px;
+        color: #DF314E;
+    }
+    #color{
+        color: #DF314E;
+    }
+    #graduationhat img{
+        width: 40px;
+    }
+
+    #login-button button{
+        margin-left: -60px;
+        width: 60px;
+        height: 30px;
+        border-radius: 12px;
+        border: #DF314E 3px solid;
+    }
+
+    #join-button button{
+        margin-left: 5px;
+        width: 60px;
+        border-radius: 12px;
+        height: 35px;
+        background-color: #DF314E;
+        color: white;
+    }
+
+    body{
+        padding-left: 1px;
+        padding-right: 1px;
+        overflow-x: hidden;
+    }
+    #landing-page{
+        display: grid;
+        /* flex-direction: row; */
+        /* justify-content: space-around; */
+        margin-top:20px;
+    }
+    #landingpage-image img{
+        position: absolute;
+        width: 500px;
+        margin-left: 10px;
+       }
+      #footer{
+        display: grid;
+        /* flex-direction: row; 
+        justify-items: space-around;
+        align-items: center;  */
+        margin-top: 400px; 
+    }
+    #microsoft-icon img{
+        width: 120px; 
+       
+      }
+      #google-icon img{
+          width: 120px;
+          margin-left: 5px;
+      }
+      #medium-icon img{
+          width: 120px;
+          margin-left: 5px;
+      }
+      #udemy-icon img{
+          width: 120px;
+          margin-left: 5px;
+      }
+      #slack-icon img{
+          width: 120px;
+          margin-left: 5px;
+          
+}
+
+#ux img{
+    margin-top: -10px;
+    margin-left: 210px;
+    position: absolute;
+width: 80px;
+}
+#adepearence img{
+    margin-left: 70px;
+    margin-top: 90px;
+    position: absolute;
+    width: 50px;  
+}
+#biotech img{
+    margin-left: 55px;
+    margin-top: 270px;
+    position: absolute;
+    width: 100px;
+}
+#pedro img{
+    margin-left: 380px;
+    margin-top: 280px;
+    position: absolute;
+    width: 60px;
+}
+#plesk img{
+    margin-left: 380px;
+    margin-top: 90px;
+    position: absolute;
+    width: 80px;
+}
+#skills input{
+    margin-left: -34px;
+    width: 480px;
+    position: relative;
+    height: 50px;
+    border-radius: 12px;
+}
+#check{
+    display: grid;
+}
+#explore-button button{
+    width: 200px;
+    position: absolute;
+    margin-left: -200px;
+    height: 55px;
+
+}
+}
+@media screen and (min-width:550px) and (max-width:912px){
+    #navbar{
+        display: grid;
+        /* flex-direction: row;
+        /* align-items: center; */
+       /* justify-content: space-around; */ 
+    
+    }
+    #landingpage-heading {
+        font-size: 32px;
+        margin-left: 30px;
+    }
+    #logo{
+        display: grid;
+        
+        justify-items: space-around;
+        align-items: center;
+        margin-left: -50px;
+    }
+
+    #nav nav{
+        display: grid;
+        /* flex-d.reverse()irection: row; */
+    }
+    #nav ul{
+        gap: 3%;
+        display: grid;
+        /* flex-direction: row; */
+        list-style-type: none;
+        font-size: 18px;
+        
+    }
+    #nav button{
+        width: 60px;
+        height: 40px;
+        margin-left: -10px;
+        margin-top: 20px;
+    }
+
+    #contact{
+        margin-left: 5px;
+    }
+    #about{
+        margin-left: 5px;
+    }
+    #program{
+        margin-left: 5px;
+    }
+    #home {
+        margin-left: 2px;
+        color: #DF314E;
+    }
+    #color{
+        color: #DF314E;
+    }
+    #graduationhat img{
+        width: 40px;
+    }
+
+    #login-button button{
+        margin-left: -60px;
+        width: 60px;
+        height: 30px;
+        border-radius: 12px;
+        border: #DF314E 3px solid;
+    }
+
+    #join-button button{
+        margin-left: 5px;
+        width: 60px;
+        border-radius: 12px;
+        height: 35px;
+        background-color: #DF314E;
+        color: white;
+    }
+
+    body{
+        padding-left: 1px;
+        padding-right: 1px;
+        overflow-x: hidden;
+    }
+    #landing-page{
+        display: grid;
+        /* flex-direction: row; */
+        /* justify-content: space-around; */
+        margin-top:20px;
+    }
+    #landingpage-image img{
+        position: absolute;
+        width: 500px;
+        margin-left: 10px;
+       }
+      #footer{
+        display: grid;
+        /* flex-direction: row; 
+        justify-items: space-around;
+        align-items: center;  */
+        margin-top: 400px; 
+    }
+    #microsoft-icon img{
+        width: 120px; 
+       
+      }
+      #google-icon img{
+          width: 120px;
+          margin-left: 5px;
+      }
+      #medium-icon img{
+          width: 120px;
+          margin-left: 5px;
+      }
+      #udemy-icon img{
+          width: 120px;
+          margin-left: 5px;
+      }
+      #slack-icon img{
+          width: 120px;
+          margin-left: 5px;
+          
+}
+
+#ux img{
+    margin-top: -10px;
+    margin-left: 210px;
+    position: absolute;
+width: 80px;
+}
+#adepearence img{
+    margin-left: 70px;
+    margin-top: 90px;
+    position: absolute;
+    width: 50px;  
+}
+#biotech img{
+    margin-left: 55px;
+    margin-top: 270px;
+    position: absolute;
+    width: 100px;
+}
+#pedro img{
+    margin-left: 380px;
+    margin-top: 280px;
+    position: absolute;
+    width: 60px;
+}
+#plesk img{
+    margin-left: 380px;
+    margin-top: 90px;
+    position: absolute;
+    width: 80px;
+}
+#skills input{
+    margin-left: -34px;
+    width: 480px;
+    position: relative;
+    height: 50px;
+    border-radius: 12px;
+}
+#check{
+    display: grid;
+}
+#explore-button button{
+    width: 200px;
+    position: absolute;
+    margin-left: -200px;
+    height: 55px;
+
+} 
+}
